@@ -1,0 +1,3 @@
+success,status,inputUrl,profileUrl,publicIdentifier,fullName,headline,location,followers,connections,dataQuality,error
+true,success,https://www.linkedin.com/in/example-profile/,https://www.linkedin.com/in/example-profile/,example-profile,Example Name,Example professional headline,"City, Country",1200,"500+",extended,
+false,invalid_url,https://www.linkedin.com/company/example/,,,,,,,,,"Expected a public LinkedIn profile URL under /in/."

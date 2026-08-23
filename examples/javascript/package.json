@@ -1,0 +1,8 @@
+{
+  "name": "actor-api-example",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "apify-client": "^2.0.0"
+  }
+}

@@ -1,0 +1,49 @@
+[
+  {
+    "success": true,
+    "status": "success",
+    "inputUrl": "https://www.linkedin.com/in/example-profile/",
+    "profileUrl": "https://www.linkedin.com/in/example-profile/",
+    "publicIdentifier": "example-profile",
+    "scrapedAt": "2026-01-15T12:00:00Z",
+    "error": null,
+    "dataQuality": {
+      "level": "extended",
+      "publicFields": [
+        "fullName",
+        "headline",
+        "location",
+        "about",
+        "experience"
+      ],
+      "publicFieldCount": 5
+    },
+    "profile": {
+      "fullName": "Example Name",
+      "headline": "Example professional headline",
+      "location": "City, Country",
+      "followers": "1200",
+      "followersText": "1,200 followers",
+      "connections": "500+",
+      "connectionsText": "500+ connections",
+      "about": "Sanitized public profile summary.",
+      "profilePictureUrl": "https://example.com/profile-picture.jpg",
+      "experience": [],
+      "education": [],
+      "skills": [],
+      "certifications": [],
+      "languages": []
+    }
+  },
+  {
+    "success": false,
+    "status": "invalid_url",
+    "inputUrl": "https://www.linkedin.com/company/example/",
+    "profileUrl": null,
+    "publicIdentifier": null,
+    "scrapedAt": "2026-01-15T12:00:01Z",
+    "error": "Expected a public LinkedIn profile URL under /in/.",
+    "dataQuality": null,
+    "profile": null
+  }
+]
